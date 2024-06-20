@@ -31,6 +31,29 @@
           <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
+      <component id="2aee" class="javax.swing.JCheckBox" binding="eresPolitecnicoCheckBox" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="eres politecnico"/>
+        </properties>
+      </component>
+      <component id="ad96e" class="javax.swing.JList" binding="list1" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Hola mundo"/>
+            <item value="como estasn"/>
+            <item value=""/>
+            <item value="- hola xd"/>
+          </model>
+        </properties>
+      </component>
     </children>
   </grid>
 </form>
